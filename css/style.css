@@ -1,4 +1,4 @@
-/* ===== RESET & BASE ===== */
+﻿/* ===== RESET & BASE ===== */
 * {
   margin: 0;
   padding: 0;
@@ -246,7 +246,7 @@ footer {
 }
 
 .course-card p {
-  color: #555;
+  color: #444;
   line-height: 1.6;
 }
 
@@ -309,7 +309,7 @@ footer {
 }
 
 .about-text p {
-  color: #555;
+  color: #444;
   line-height: 1.8;
   margin-bottom: 14px;
 }
@@ -336,7 +336,7 @@ footer {
 }
 
 .stat-box p {
-  color: #666;
+  color: #444;
   font-size: 0.9rem;
   margin-top: 4px;
 }
@@ -355,7 +355,7 @@ footer {
 }
 
 .section-subtitle {
-  color: #666;
+  color: #444;
   margin-bottom: 48px;
   font-size: 1rem;
 }
@@ -411,7 +411,7 @@ footer {
 }
 
 .teacher-card p {
-  color: #666;
+  color: #444;
   font-size: 0.9rem;
   line-height: 1.6;
 }
@@ -451,7 +451,7 @@ footer {
   margin-bottom: 8px;
 }
 
-.value-item p { color: #666; font-size: 0.92rem; line-height: 1.6; }
+.value-item p { color: #444; font-size: 0.92rem; line-height: 1.6; }
 
 @media (max-width: 768px) {
   .about-mission-inner { grid-template-columns: 1fr; gap: 40px; }
@@ -555,13 +555,13 @@ footer {
 
 .student-detail {
   font-size: 0.88rem;
-  color: #555;
+  color: #444;
   font-weight: 500;
 }
 
 .student-quote {
   font-size: 0.88rem;
-  color: #777;
+  color: #555;
   font-style: italic;
   text-align: center;
   line-height: 1.5;
@@ -713,7 +713,7 @@ footer {
 }
 
 .info-item p {
-  color: #555;
+  color: #444;
   font-size: 0.92rem;
 }
 
@@ -764,3 +764,4 @@ footer {
   .whatsapp-float span { display: none; }
   .whatsapp-float { padding: 14px; border-radius: 50%; }
 }
+

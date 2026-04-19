@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | Charsadda Coaching Academy</title>
+  <meta name="description" content="Contact Charsadda Coaching Academy to enroll or ask about our Matric, FSc, and entry test courses. Visit us in Charsadda or call us today." />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <span class="logo-text">Charsadda <span class="accent">Academy</span></span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="results.html">Results</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger">&#9776;</button>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="page-hero">
+      <h1>Contact Us</h1>
+      <p>We would love to hear from you — enroll today or ask us anything</p>
+    </section>
+
+    <section class="contact-section">
+      <div class="contact-wrapper">
+
+        <!-- CONTACT FORM -->
+        <div class="contact-form-box">
+          <h2>Send Us a Message</h2>
+          <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Your full name" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="03XX-XXXXXXX" required />
+            </div>
+            <div class="form-group">
+              <label for="course">Course Interested In</label>
+              <select id="course" name="course">
+                <option value="">Select a course</option>
+                <option value="matric">Matric Preparation</option>
+                <option value="fsc">FSc Preparation</option>
+                <option value="entry-test">Entry Test Prep</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" placeholder="Any questions or additional info..."></textarea>
+            </div>
+            <button type="submit" class="btn-submit">Send Message</button>
+          </form>
+        </div>
+
+        <!-- CONTACT INFO -->
+        <div class="contact-info-box">
+          <h2>Get In Touch</h2>
+          <div class="info-item">
+            <div class="info-icon">📍</div>
+            <div>
+              <h4>Address</h4>
+              <p>Main Bazaar, Charsadda, KPK, Pakistan</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">📞</div>
+            <div>
+              <h4>Phone</h4>
+              <p>0300-1234567</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">⏰</div>
+            <div>
+              <h4>Office Hours</h4>
+              <p>Monday – Saturday: 8:00 AM – 6:00 PM</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">📧</div>
+            <div>
+              <h4>Email</h4>
+              <p>info@charsaddaacademy.com</p>
+            </div>
+          </div>
+
+          <!-- MAP EMBED -->
+          <div class="map-embed">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26555.14570736509!2d71.72860!3d34.14820!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d908c4a1234567%3A0xabcdef1234567890!2sCharsadda%2C%20KPK%2C%20Pakistan!5e0!3m2!1sen!2s!4v1234567890"
+              width="100%"
+              height="220"
+              style="border:0; border-radius:10px;"
+              allowfullscreen=""
+              loading="lazy">
+            </iframe>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Charsadda Coaching Academy. All rights reserved.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
